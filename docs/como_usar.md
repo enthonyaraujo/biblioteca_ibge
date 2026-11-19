@@ -15,6 +15,13 @@ sudo apt update
 sudo apt install build-essential curl
 ~~~
 
+No RedHat/Fedora:
+
+~~~bash
+sudo dnf update
+sudo dnf group install "Development Tools" "C Development Tools and Libraries" curl
+~~~
+
 ## Estrutura das pastas
 
 A distribuição contém os arquivos mínimos para compilar e executar o exemplo:
