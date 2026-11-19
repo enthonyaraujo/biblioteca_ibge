@@ -11,3 +11,8 @@ Esta pasta contém uma biblioteca em C para consultar municípios brasileiros us
 - `biblioteca_ibge.zip`: pacote compactado da biblioteca.
 
 Para mais informações, consulte os arquivos dentro de `docs/`.
+
+## Ordem de leitura
+
+1. `docs/COMO_USAR.md`: explica como compilar, instalar e utilizar a biblioteca IBGE em um programa C.
+2. `docs/atividade.md`: apresenta a atividade proposta, suas regras e os exercícios envolvendo municípios, grafos e rotas.
