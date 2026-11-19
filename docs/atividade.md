@@ -3,7 +3,7 @@
 ## Regras da atividade
 
 - **Quantidade de integrantes:** 3 por grupo.
-- **Prazo para entrega:** a definir.
+- **Prazo para entrega:** Dia 03(Alunos da Quinta-feira) ou dia 04(alunos da Sexta-feira).
 - **Entrega (60% da Nota):** relatório com os resultados obtidos em cada questão. Obrigatório: Link do repositório acessível para kennedy.lopes@ufersa.edu.br. 
 - **Apresentação dos resultados (40% da Nota):** o uso de IA **para esta atividade** não é proibido. Porém, haverá questionamentos sobre as questões e as modificações realizadas no código, respondidos sem auxílio de IA. As perguntas serão aplicadas a todos os grupos simultaneamente.
 
