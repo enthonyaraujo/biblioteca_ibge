@@ -4,8 +4,8 @@
 
 - **Quantidade de integrantes:** 3 por grupo.
 - **Prazo para entrega:** a definir.
-- **Entrega:** relatório com os resultados obtidos em cada questão. Obrigatório: Link do repositório acessível para kennedy.lopes@ufersa.edu.br. 
-- **Apresentação dos resultados:** o uso de IA **para esta atividade** não é proibido. Porém, haverá questionamentos sobre as questões e as modificações realizadas no código, respondidos sem auxílio de IA. As perguntas serão aplicadas a todos os grupos simultaneamente.
+- **Entrega (60% da Nota):** relatório com os resultados obtidos em cada questão. Obrigatório: Link do repositório acessível para kennedy.lopes@ufersa.edu.br. 
+- **Apresentação dos resultados (40% da Nota):** o uso de IA **para esta atividade** não é proibido. Porém, haverá questionamentos sobre as questões e as modificações realizadas no código, respondidos sem auxílio de IA. As perguntas serão aplicadas a todos os grupos simultaneamente.
 
 Use a biblioteca IBGE para obter os dados dos municípios, especialmente os campos `codigo`, `nome`, `latitude` e `longitude` da estrutura `Municipio`. Considere cada cidade um **vértice** de um grafo. Uma rota ou conexão entre duas cidades é uma **aresta**, e sua distância é o **peso** dessa aresta.
 
