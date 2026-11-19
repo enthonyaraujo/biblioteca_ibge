@@ -4,7 +4,7 @@
 
 - **Quantidade de integrantes:** 3 por grupo.
 - **Prazo para entrega:** a definir.
-- **Entrega:** relatório com os resultados obtidos em cada questão.
+- **Entrega:** relatório com os resultados obtidos em cada questão. Obrigatório: Link do repositório acessível para kennedy.lopes@ufersa.edu.br. 
 - **Apresentação dos resultados:** o uso de IA **para esta atividade** não é proibido. Porém, haverá questionamentos sobre as questões e as modificações realizadas no código, respondidos sem auxílio de IA. As perguntas serão aplicadas a todos os grupos simultaneamente.
 
 Use a biblioteca IBGE para obter os dados dos municípios, especialmente os campos `codigo`, `nome`, `latitude` e `longitude` da estrutura `Municipio`. Considere cada cidade um **vértice** de um grafo. Uma rota ou conexão entre duas cidades é uma **aresta**, e sua distância é o **peso** dessa aresta.
@@ -107,17 +107,17 @@ Depois, verifique se existe uma rota entre Pau dos Ferros e Natal. Use BFS ou DF
 
 ## 6. Menor rota por distância
 
-Construa um grafo não direcionado com todos os municípios do Rio Grande do Norte e de Pernambuco. Crie uma aresta entre duas cidades quando a distância geográfica entre elas for de, no máximo, `30 km`. Inclua conexões entre municípios de estados diferentes sempre que atenderem ao limite.
+Construa um grafo não direcionado com todos os municípios do Rio Grande do Norte, Ceará e Paraíba. Crie uma aresta entre duas cidades quando a distância geográfica entre elas for de, no máximo, `30 km`. Inclua conexões entre municípios de estados diferentes sempre que atenderem ao limite.
 
-Utilize o algoritmo de Dijkstra para encontrar a menor rota entre Natal e Recife. Exiba a sequência completa de municípios, as distâncias de cada trecho e a distância total. Se não houver caminho com o limite escolhido, informe isso e discuta qual limite mínimo poderia tornar a rota possível.
+Utilize o algoritmo de Dijkstra para encontrar a menor rota entre Pau dos Ferros e João Pessoa. Exiba a sequência completa de municípios, as distâncias de cada trecho e a distância total. Se não houver caminho com o limite escolhido, informe isso e discuta qual limite mínimo poderia tornar a rota possível.
 
-## 8. Município com mais vizinhos por estado
+## 7. Município com mais vizinhos por estado
 
 Considere todos os municípios brasileiros retornados pela biblioteca. Construa um grafo não direcionado com uma aresta entre duas cidades quando elas estiverem a, no máximo, `15 km` de distância. Não limite as arestas ao mesmo estado: cidades próximas de uma fronteira podem ter vizinhas em estados diferentes.
 
 Para cada estado e para o Distrito Federal, determine o município com a maior quantidade de cidades vizinhas, isto é, o maior grau no grafo. Em caso de empate, mostre todos os municípios empatados. Para cada resultado, exiba a UF, o município, o código IBGE e a quantidade de vizinhos, indicando quantos deles pertencem a outra UF.
 
-## 9. Caixeiro viajante com municípios iniciados por A ou B
+## 8. Caixeiro viajante com municípios iniciados por A ou B
 
 ### Municípios do RN usados nos exercícios
 
@@ -147,6 +147,6 @@ Use os municípios abaixo, cujos nomes começam com A ou B. As coordenadas foram
 
 Construa um grafo completo com esses `19` municípios. O peso de cada aresta deve ser a distância de Haversine entre os municípios.
 
-Partindo de Acari, determine uma rota de caixeiro viajante de menor distância que visite todos os municípios exatamente uma vez e retorne a Acari. Exiba a ordem de visitação, a distância de cada trecho e a distância total da rota. Como há `19` municípios, use uma estratégia adequada, como programação dinâmica, branch and bound ou uma heurística acompanhada de uma análise de qualidade da solução.
+Partindo de Acari, determine uma rota de caixeiro viajante de menor distância que visite todos os municípios exatamente uma vez e retorne a Acari. Exiba a ordem de visitação, a distância de cada trecho e a distância total da rota. Como há `19` municípios, use qualquer estratégia.
 
 Mostre o percurso em um mapa. Você pode gerar a visualização em um programa próprio ou traçar manualmente os pontos no Google Maps. Na apresentação, diferencie a distância geográfica calculada pela atividade da distância rodoviária exibida pelo Google Maps.
