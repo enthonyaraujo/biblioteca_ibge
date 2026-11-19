@@ -4,6 +4,8 @@
 
 - **Quantidade de integrantes:** 3 por grupo.
 - **Prazo para entrega:** Dia 03(Alunos da Quinta-feira) ou dia 04(alunos da Sexta-feira).
+- **Ordem de apresentação:** No dia 03, todos os grupos fazem a prova simultaneamente. No dia 04, os grupos realizarão a prova de 6 em 6 grupos simultaneamente.
+- **Duração de cada "apresentação"**: Cada apresentação terá 30min para responder sobre perguntas do seu códidp;
 - **Entrega (60% da Nota):** relatório com os resultados obtidos em cada questão. Obrigatório: Link do repositório acessível para kennedy.lopes@ufersa.edu.br. 
 - **Apresentação dos resultados (40% da Nota):** o uso de IA **para esta atividade** não é proibido. Porém, haverá questionamentos sobre as questões e as modificações realizadas no código, respondidos sem auxílio de IA. As perguntas serão aplicadas a todos os grupos simultaneamente.
 
