@@ -83,6 +83,10 @@ int main() {
 }
 ~~~
 
+Ante de continuar, separe o seu código em pastas:
+- src: Pasta dos códigos do cliente, que utilizam a `biblioteca_ibge`;
+- build: Local que irá armazenar os programas do cliente;
+
 Com essa estrutura, compile o programa a partir da raiz de `meu_programa/`:
 
 ~~~bash
